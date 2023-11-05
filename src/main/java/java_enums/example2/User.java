@@ -1,4 +1,4 @@
-package java_enums;
+package java_enums.example2;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

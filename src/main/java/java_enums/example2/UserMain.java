@@ -1,4 +1,4 @@
-package java_enums;
+package java_enums.example2;
 
 public class UserMain {
 
@@ -14,5 +14,7 @@ public class UserMain {
 		userService.displayUserInfo(regularUser);
 		userService.displayUserInfo(guestUser);
 		userService.displayUserInfo(moderatorUser);
+
+		System.out.println(adminUser.getUserRole().toString());
 	}
 }

@@ -1,5 +1,8 @@
-package java_enums;
+package java_enums.example2;
 
+import lombok.ToString;
+
+@ToString
 public enum UserRole {
 	ADMIN("Administrator", "Full access", "admin", 1),
 	USER("User", "Basic access", "user", 2),
